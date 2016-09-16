@@ -14,6 +14,6 @@
 # limitations under the License.
 #
 
-$(call inherit-product-if-exists, vendor/huawei/hwY550/hwY550-vendor.mk)
+$(call inherit-product-if-exists, vendor/huawei/msm8916-common/msm8916-vendor.mk)
 
 $(call inherit-product, device/huawei/msm8916-common/msm8916.mk)
